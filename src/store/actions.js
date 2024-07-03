@@ -16,7 +16,7 @@ export const Init = () => {
 export const Login = (username, password) => {
   return async dispatch => {
     let token = null;
-    if (username === 'vishal' && password == '1234') {
+    if (username === 'kkworldz' && password == 'kk@123') {
       token = username + password;
       // here we can use login api to get token and then store it
       await AsyncStorage.setItem('token', token);
